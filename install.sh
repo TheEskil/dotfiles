@@ -14,12 +14,16 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Oh my Zsh!
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Install Ruby Environment Manager (RVM)q
+# Install Ruby Environment Manager (RVM)
 \curl -sSL https://get.rvm.io | bash -s stable
 
+source $HOME/.rvm/scripts/rvm
 rvm install ruby-2.4.1
 rvm use ruby-2.4.1
 rvm alias create default ruby-2.4.1
