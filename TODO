@@ -1,0 +1,56 @@
+Alfred
+	Hot key: Cmd--
+	Appearance: Alfred Dark
+
+Oh My Zsh:
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+System Preferences - Keyboard - Modifier Keys
+    USB-HID Keyboard:
+	    Option: Command
+	    Command: Option
+
+System Preferences - General
+    [x] Use dark menu bar and Dock
+	[ ] Automatically hide and show the menu bar
+
+System Preferences - Dock
+	[ ] Automatically hide and show the Dock
+	Position on screen: Left
+	Size: 25%
+
+iTerm2 - Keys
+	[x] Show/hide all windows with a system-wide hotkey: Hex Code 0x0
+
+iTerm2 - Profiles - Color Presets...
+	Pastel (Dark Background)
+
+iTerm2 - Profiles - Text - Font
+	16pt Menlo Regular
+
+System Preferences - Sharing
+	Computer name: eskil-macmini
+
+Sourcetree - General
+    Terminal app: iTerm2
+    Theme: Dark
+
+System Preferences - Keyboard
+    Key Repeat: Fast
+    Delay Until Repeat: Short
+
+Finder - Preferences - General
+    [ ] Hard disks
+    [ ] External Disks
+    [ ] CDs, DVDs, and iPods
+    [ ] Connected Servers
+
+    New Finder windows show:
+        ~/
+
+Finder - Preferences - Sidebar
+    [ ] Recents
+    [x] ~/
+    [ ] Hard Disks
+    [ ] CDs, DVDs, and iPods
+    [ ] Recent Tags
