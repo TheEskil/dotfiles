@@ -56,13 +56,13 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
 # `Inches`, `en_GB` with `en_US`, and `true` with `false`.
-defaults write NSGlobalDomain AppleLanguages -array "en" "nl"
-defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
+defaults write NSGlobalDomain AppleLanguages -array "en" "no"
+defaults write NSGlobalDomain AppleLocale -string "en_US@currency=NOK"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
+sudo systemsetup -settimezone "Europe/Oslo" > /dev/null
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -276,7 +276,7 @@ defaults write com.apple.ical "number of hours displayed" 24
 defaults write com.apple.ical "first day of the week" 1
 
 # Day starts at 9AM
-defaults write com.apple.ical "first minute of work hours" 540
+defaults write com.apple.ical "first minute of work hours" 480
 
 ###############################################################################
 # Date & Time                                                                 #
@@ -303,5 +303,3 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 done
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
-
-

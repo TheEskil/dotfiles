@@ -9,6 +9,9 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # referenced in my aliases.zsh file directly.
 #export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
+# Load RVM global installed binaries
+export PATH="$HOME/.rvm/bin:$PATH"
+
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 

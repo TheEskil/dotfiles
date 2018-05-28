@@ -17,6 +17,14 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
+# Install Ruby Environment Manager (RVM)q
+\curl -sSL https://get.rvm.io | bash -s stable
+
+rvm install ruby-2.4.1
+rvm use ruby-2.4.1
+rvm alias create default ruby-2.4.1
+rvm osx-ssl-certs update all
+
 # Install PHP extensions with PECL
 pecl install imagick
 
