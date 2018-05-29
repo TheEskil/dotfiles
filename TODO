@@ -10,10 +10,6 @@ System Preferences - Keyboard - Modifier Keys
 	    Option: Command
 	    Command: Option
 
-System Preferences - General
-    [x] Use dark menu bar and Dock
-	[ ] Automatically hide and show the menu bar
-
 iTerm2 - Keys
 	[x] Show/hide all windows with a system-wide hotkey: Hex Code 0x0
 
