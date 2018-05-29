@@ -140,6 +140,12 @@ defaults write NSGlobalDomain _HIHideMenuBar -bool true
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
+# Dock size
+defaults write com.apple.dock tilesize -int 36
+
+# Position on screen (left, bottom, right)
+defaults write com.apple.dock orientation -string "left"
+
 # Dark menu bar and dock
 defaults write $HOME/Library/Preferences/.GlobalPreferences.plist AppleInterfaceTheme -string "Dark"
 
@@ -176,7 +182,7 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 # Add iOS & Watch Simulator to Launchpad
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"

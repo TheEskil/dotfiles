@@ -14,11 +14,6 @@ System Preferences - General
     [x] Use dark menu bar and Dock
 	[ ] Automatically hide and show the menu bar
 
-System Preferences - Dock
-	[ ] Automatically hide and show the Dock
-	Position on screen: Left
-	Size: 25%
-
 iTerm2 - Keys
 	[x] Show/hide all windows with a system-wide hotkey: Hex Code 0x0
 
