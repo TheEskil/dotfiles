@@ -140,6 +140,11 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Auto hide menu bar
 defaults write NSGlobalDomain _HIHideMenuBar -bool false
 
+# Set ~/ as the default location for new Finder windows
+# For other paths, use `PfDe` and `file:///full/path/here/`
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
+
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
