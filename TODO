@@ -17,7 +17,8 @@ iTerm2 - Profiles - Color Presets...
 	Pastel (Dark Background)
 
 iTerm2 - Profiles - Text - Font
-	16pt Menlo Regular
+	15pt Source Code Powerline Light
+    [x] Use ligatures
 
 Sourcetree - General
     Terminal app: iTerm2
