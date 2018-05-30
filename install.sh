@@ -29,6 +29,9 @@ rvm use ruby-2.4.1
 rvm alias create default ruby-2.4.1
 rvm osx-ssl-certs update all
 
+# Install Bundler
+gem install bundler
+
 # Install PHP extensions with PECL
 pecl install imagick
 
