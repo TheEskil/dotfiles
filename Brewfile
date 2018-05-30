@@ -92,3 +92,5 @@ mas 'ColorSnapper 2', id: 969418666
 mas 'Localizable Strings Merge', id: 475333727
 mas 'Spark', id: 1176895641
 mas 'Deliveries', id: 924726344
+mas 'Numbers', id: 409203825
+mas 'Tweetbot 2 for Twitter', id: 557168941
